@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  bugyi = 'fos';
+  activate() {
+    console.log('sikeresen megnyomva');
+    alert('Kattints az "OK"-ra a youtube megnyitásához.');
+    window.open('https://www.youtube.com' );
+
+  }
 }
